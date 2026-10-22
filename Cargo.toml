@@ -1,6 +1,11 @@
 [package]
-name = "lab5"
+name = "lab5-graficos"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+gif = "0.14.2"
+raylib = "5.5"
+
+[profile.release]
+debug = true
